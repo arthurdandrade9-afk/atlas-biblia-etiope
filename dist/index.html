@@ -9,6 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .hero{background:linear-gradient(90deg,#07162eee 0%,#07162edb 40%,#07162e55 72%,#07162e15 100%),url("assets/hero-desert.png") center/cover}
+    .hero-visual{filter:drop-shadow(0 20px 35px #03081299)}
+    .timeline{padding:7rem max(7vw,2rem);background:radial-gradient(circle at 50% 0,#29496f,#0d2342 58%);color:#fff;text-align:center}
+    .timeline h2{color:#fff;font-size:clamp(2.1rem,4.5vw,4.4rem)}.timeline h2 em{color:#f4cd71}.timeline .section-intro{color:#e6e1d4}
+    .timeline-track{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;max-width:1400px;margin:3.5rem auto 1.4rem;background:#b99857;border:1px solid #b99857;text-align:left}
+    .timeline-track article{padding:1.3rem;background:#f5ebd2;color:#17274a;min-height:260px}.timeline-track span{font:900 1.7rem Cinzel;color:#8e251e}.timeline-track small{display:block;font:800 .65rem Cinzel;color:#8e251e;letter-spacing:.1em;margin:.6rem 0}.timeline-track h3{font-size:1rem;color:#102b52;margin:.2rem 0 .6rem}.timeline-track p{font-size:.9rem;line-height:1.5;margin:0}
+    .evidence-note{max-width:1000px;margin:auto;border:1px solid #d7b35f;padding:1.1rem;color:#fff1c8;line-height:1.55}
+    @media(max-width:800px){.timeline{padding:5rem 1.4rem}.timeline-track{grid-template-columns:1fr}.timeline-track article{min-height:0}}
+  </style>
 </head>
 <body>
   <main>
@@ -18,7 +28,7 @@
         <p class="eyebrow">ATLAS VISUAL • 100 PÁGINAS</p>
         <h1>O que a Bíblia<br><em>escondeu</em> de você?</h1>
         <p class="lead">Por que algumas Bíblias têm 66 livros, outras 73, a tradição etíope é associada a 81 — e anúncios falam em 88?</p>
-        <p class="bridge">Existe uma história por trás dos livros, manuscritos e tradições que quase ninguém conecta. Este mapa mostra como investigar o que ficou fora da sua lista.</p>
+        <p class="bridge">Entre desertos, manuscritos e tradições antigas existe uma história que a maioria dos leitores nunca recebeu organizada. O mapa está aqui.</p>
         <a class="cta" href="#atlas">Quero descobrir o que ficou de fora <span>→</span></a>
         <p class="micro">Não é teoria solta. É um mapa visual para ler, comparar e entender.</p>
       </div>
@@ -32,6 +42,20 @@
 
     <section class="mystery-strip">
       <p>Você ouviu que existem livros “esquecidos”. A pergunta não é apenas <strong>quais</strong> — é <strong>como, por quem e em qual tradição eles foram preservados.</strong></p>
+    </section>
+
+    <section class="timeline">
+      <p class="eyebrow">ONDE A HISTÓRIA SE BIFURCOU</p>
+      <h2>Os grandes mistérios não surgiram do nada.<br><em>Eles nasceram quando as tradições seguiram rotas diferentes.</em></h2>
+      <p class="section-intro">O Atlas revela os momentos em que textos, línguas e listas passaram a ser recebidos de modos diferentes — e o que cada vestígio permite afirmar.</p>
+      <div class="timeline-track">
+        <article><span>01</span><small>ORIGENS</small><h3>Textos e tradições judaicas</h3><p>Obras circulam em hebraico, aramaico e grego, antes de existir uma única lista cristã.</p></article>
+        <article><span>02</span><small>CIRCULAÇÃO</small><h3>Comunidades leem diferente</h3><p>Alguns textos ganham uso amplo; outros permanecem mais locais ou entram em debate.</p></article>
+        <article><span>03</span><small>BIFURCAÇÕES</small><h3>Listas, línguas e cânones</h3><p>Tradições organizam bibliotecas recebidas com critérios e histórias próprias.</p></article>
+        <article><span>04</span><small>PRESERVAÇÃO</small><h3>A rota etíope em ge’ez</h3><p>Uma tradição antiga mantém e transmite uma biblioteca mais ampla, incluindo textos como 1 Enoque.</p></article>
+        <article><span>05</span><small>HOJE</small><h3>66, 73, 81… e 88?</h3><p>Uma edição moderna e uma promessa comercial exigem lista, contexto e fonte.</p></article>
+      </div>
+      <div class="evidence-note"><b>O QUE A EVIDÊNCIA MOSTRA:</b> tradições preservaram coleções diferentes. <b>O QUE ELA NÃO AUTORIZA:</b> transformar toda diferença em uma conspiração sem fonte.</div>
     </section>
 
     <section class="proof" id="atlas">
